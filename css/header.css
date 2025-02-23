@@ -1,0 +1,40 @@
+header{
+    position:absolute;
+    top:0;
+    width:100%;
+    padding:1rem;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    z-index: 1000; /* Added to ensure header displays above other content */
+}
+
+header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+header button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header h1 button {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav ul li {
+    padding: 10px;
+}
+
+header nav ul li button{
+    font-size: 1.2rem;
+}
